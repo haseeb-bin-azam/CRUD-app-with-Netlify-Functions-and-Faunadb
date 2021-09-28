@@ -1,0 +1,53 @@
+.container {
+    border: 3px solid black;
+    width: 500px;
+    margin: 160px auto 0 auto;
+    height: 300px;
+}
+
+.container h1 {
+    background-color: rgb(36, 88, 231);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.container form {
+    text-align: center;
+}
+
+.container form input[type='text'] {
+    margin-top: 10px;
+    width: 240px;
+    height: 30px;
+    text-align: center;
+}
+
+.container form input[type='submit'] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.container form input[type='submit']:hover {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+.linkcontainer {
+    margin-left: 445px;
+}
+
+.linkcontainer a {
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 110px;
+    padding: 10px;
+    background-color: rgb(36, 88, 231);
+    color: whitesmoke;
+}
+
+.linkcontainer a:hover {
+    background-color: rgb(39, 38, 38);
+    color: whitesmoke;
+}

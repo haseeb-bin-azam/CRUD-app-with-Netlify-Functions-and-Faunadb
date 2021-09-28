@@ -16,8 +16,15 @@
   },
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^3.13.1",
+    "dotenv": "^10.0.0",
+    "faunadb": "^4.4.1",
+    "gatsby": "^3.14.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/react-router": "^5.1.16"
   }
 }
