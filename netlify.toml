@@ -1,6 +1,6 @@
 
 [build]
-  command = "yarn build"
+  command = "CI= yarn build"
   publish = "public/"
   functions = "functions/"
 
